@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emma's Website</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header><img src="images/emma vinberg logo.svg" alt="" style="width: 150px; height: auto;"></header>
+
+  <main class="main">
+
+    <div id="myBtnContainer" style="text-align: center; margin-top: 32px;">
+      <button class="btn active" onclick="filterSelection('alla')"> Visa alla</button>
+      <button class="btn" onclick="filterSelection('loggor')"> Loggor</button>
+      <button class="btn" onclick="filterSelection('hemsidor')"> Hemsidor</button>
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+
+      <div class="column loggor">
+        <div class="content">
+          <img src="/images/ice-cream-company.jpg" alt="" style="width: 100%">
+          <h4>Lorem</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+
+      <div class="column loggor">
+        <div class="content">
+          <img src="/images/boat-company.jpg" alt="" style="width: 100%">
+          <h4>Lorem</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+
+      <div class="column loggor">
+        <div class="content">
+          <img src="/images/bicycle-company.jpg" alt="" style="width: 100%">
+          <h4>Lorem</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+
+      <!-- END GRID -->
+    </div>
+
+  </main>
+
+  <footer>&copy; 2020</footer>
+
+  <script src="javascript/script.js"></script>
+</body>
+
+</html>
