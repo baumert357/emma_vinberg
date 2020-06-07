@@ -2,29 +2,55 @@
 * {
   box-sizing: border-box; }
 
-header, footer {
-  text-align: center; }
+header {
+  text-align: center;
+  padding: 24px 0; }
+  header img {
+    width: 100px;
+    height: auto; }
+  @media only screen and (min-width: 900px) {
+    header img {
+      width: 150px;
+      height: auto; } }
 
-/* html {
-  background-color: red;
-} */
-/* ↓ W3SCHOOLS CODE ↓ */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 8px;
+  border-top: 1px solid #DDD; }
+
 body {
-  /* background-color: #f1f1f1; */
-  padding: 20px;
-  /* font-family: Arial; */
-  /* background-color: green; */
-  margin: 0; }
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
-/* Center website */
-/* .main {
-  max-width: 1000px;
-  margin: auto;
-} */
-/* h1 {
-  font-size: 50px;
-  word-break: break-all;
-} */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #3A3A3A; }
+  .hero h1 {
+    word-break: break-all;
+    color: white;
+    font-family: 'Sacramento', cursive;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.2em;
+    margin: 0; }
+  @media only screen and (min-width: 900px) {
+    .hero h1 {
+      font-size: 4.5em; } }
+
+.main {
+  padding: 20px; }
+
+.sns-links a {
+  font-size: 20px;
+  margin: 0 8px;
+  color: #3A3A3A; }
+
+/* ↓ (MODIFIED) W3SCHOOLS CODE ↓ */
 .row {
   margin: 8px -16px; }
 
@@ -48,9 +74,8 @@ body {
 
 /* Content */
 .content {
-  background-color: white;
   padding: 10px;
-  border: 1px solid #e6e6e6; }
+  border: 1px solid #DDD; }
 
 /* The "show" class is added to the filtered elements */
 .show {
@@ -58,23 +83,26 @@ body {
 
 /* Style the buttons */
 .btn {
-  border: 1px solid grey;
   outline: none;
-  text-decoration: none;
-  margin: 0 12px;
-  padding: 12px 24px;
+  border: 1px solid #3A3A3A;
+  margin: 0 8px;
+  padding: 16px 32px;
   font-size: 14px;
-  border-radius: 20px;
+  border-radius: 28px;
   background-color: white;
-  color: grey;
+  color: #3A3A3A;
   cursor: pointer; }
 
 /* Add a grey background color on mouse-over */
 .btn:hover {
-  background-color: grey;
+  background-color: #3A3A3A;
   color: white; }
 
 /* Add a dark background color to the active button */
 .btn.active {
-  background-color: grey;
+  background-color: #3A3A3A;
   color: white; }
+
+#myBtnContainer {
+  text-align: center;
+  margin: 16px 0; }

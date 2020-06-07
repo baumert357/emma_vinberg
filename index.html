@@ -6,15 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Emma's Website</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/55121854ba.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <header><img src="images/emma vinberg logo.svg" alt="" style="width: 150px; height: auto;"></header>
+  <header><img src="images/emma vinberg logo.svg" alt=""></header>
+
+  <div class="hero">
+    <h1>Välkommen till min portfolio</h1>
+  </div>
 
   <main class="main">
 
-    <div id="myBtnContainer" style="text-align: center; margin-top: 32px;">
+    <div id="myBtnContainer">
       <button class="btn active" onclick="filterSelection('alla')"> Visa alla</button>
       <button class="btn" onclick="filterSelection('loggor')"> Loggor</button>
       <button class="btn" onclick="filterSelection('hemsidor')"> Hemsidor</button>
@@ -25,25 +31,57 @@
 
       <div class="column loggor">
         <div class="content">
-          <img src="/images/ice-cream-company.jpg" alt="" style="width: 100%">
-          <h4>Lorem</h4>
-          <p>Lorem ipsum dolor..</p>
+          <img src="/images/boat-company.jpg" alt="" style="width: 100%; height: auto">
+          <h4>Glass</h4>
+          <p>Tillgänglig att köpa</p>
         </div>
       </div>
 
       <div class="column loggor">
         <div class="content">
-          <img src="/images/boat-company.jpg" alt="" style="width: 100%">
-          <h4>Lorem</h4>
-          <p>Lorem ipsum dolor..</p>
+          <img src="/images/bicycle-company.jpg" alt="" style="width: 100%; height: auto">
+          <h4>Cykel</h4>
+          <p>Tillgänglig att köpa</p>
         </div>
       </div>
 
       <div class="column loggor">
         <div class="content">
-          <img src="/images/bicycle-company.jpg" alt="" style="width: 100%">
-          <h4>Lorem</h4>
-          <p>Lorem ipsum dolor..</p>
+          <img src="/images/fox-company.jpg" alt="" style="width: 100%; height: auto">
+          <h4>Rävsvans</h4>
+          <p>Tillgänglig att köpa</p>
+        </div>
+      </div>
+
+      <div class="column loggor">
+        <div class="content">
+          <img src="/images/granola-company.jpg" alt="" style="width: 100%; height: auto">
+          <h4>Vete</h4>
+          <p>Tillgänglig att köpa</p>
+        </div>
+      </div>
+
+      <div class="column loggor">
+        <div class="content">
+          <img src="/images/rideshare-company.jpg" alt="" style="width: 100%; height: auto">
+          <h4>Samåkning</h4>
+          <p>Tillgänglig att köpa</p>
+        </div>
+      </div>
+
+      <div class="column loggor">
+        <div class="content">
+          <img src="/images/waterstamp-company.jpg" alt="" style="width: 100%; height: auto">
+          <h4>Skräddarsydd vattenstämpel</h4>
+          <p>SÅLD</p>
+        </div>
+      </div>
+
+      <div class="column loggor">
+        <div class="content">
+          <img src="/images/beacon-company.jpg" alt="" style="width: 100%; height: auto">
+          <h4>Fyr</h4>
+          <p>Tillgänglig att köpa</p>
         </div>
       </div>
 
@@ -52,7 +90,17 @@
 
   </main>
 
-  <footer>&copy; 2020</footer>
+  <footer>
+
+    <div>&copy; Emma Vinberg</div>
+
+    <div class="sns-links">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+
+  </footer>
 
   <script src="javascript/script.js"></script>
 </body>
